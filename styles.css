@@ -1,0 +1,89 @@
+.kutta{
+   /* display: none; */
+   opacity: 0;
+   transition: all 0.2s ;
+
+
+}
+.kutta-group:hover .kutta{
+   /* display: visi; */
+   opacity: 1;
+   transition: all 0.5s ;
+}
+.bar-div{
+   background: linear-gradient(180deg, rgba(74, 144, 245, 0.21) -34.7%, rgba(125, 186, 244, 0.063) 100%, rgba(125, 186, 244, 0.1295) 100%);
+   border: 1px solid rgba(42, 134, 243, 0.32);
+}
+.topLevel{
+   background-position-x: -400px;
+    background-position-y: 0px;
+}
+/* .css-taopj8{
+   transform :skew(20deg)
+} */
+.itemsShadow{
+   box-shadow: 2px 4px 9px 1px hsla(0, 0%, 0%, 0.05);;
+}
+.groupg:hover .groupgEffecty{
+   display: none;
+   
+
+}
+.groupgHoverEffecty{
+   display: none;
+}
+.groupg:hover .groupgHoverEffecty{
+   display: block;
+   transform: scale(1.1);
+   transition: all 0.5s;
+   transform-origin: top left;
+   
+   
+
+}
+.bg-set{
+   background: url(./Images/core-features-sectionBg.svg) no-repeat center center/cover;
+   width: 100%;
+   padding-left: 32px;
+   padding-right: 32px;
+   background-size: 100% 100%;
+   padding-top: 12rem;
+   padding-bottom: 10rem;
+}
+.imageAnimation{
+   position: relative;
+   animation: companiesList 10s linear infinite;
+   
+
+}
+@keyframes  companiesList{
+   0% {
+      top: 0;
+ 
+
+   }
+   
+   100% {
+      top: -50%;
+   
+   }
+
+}
+.styleGradiant{
+   background: linear-gradient(180deg, #f4f8ff, #fff0);
+}
+/* .bg-img-nav-blue{
+   background: url(./Images/CTABg.svg) no-repeat ;
+   background-position: cover;
+   width: 1300px;
+} */
+
+
+
+
+
+
+
+
+                     
+
